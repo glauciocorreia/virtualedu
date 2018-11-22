@@ -14,9 +14,9 @@
                 </a>
             </li>
             <li>
-                <a class="menu__item d-flex align-items-center" href="alunos.php">
+                <a class="menu__item d-flex align-items-center" href="disciplinas.php">
                     <i class="menu__icon fas fa-book-reader fa-sm"></i>
-                    <span class="menu__label">Disciplina</span>
+                    <span class="menu__label">Disciplinas</span>
                 </a>
             </li>
             <li>

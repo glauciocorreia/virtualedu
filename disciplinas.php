@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>VirtualEdu | Início</title>
+  <title>VirtualEdu | Disciplinas</title>
 
   <!-- CSS Principal -->
   <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -33,19 +33,19 @@
     <div class="container">
       <div class="row">
         <div class="col-12 pl-3 mt-5">
-          <h1>TURMAS</h1>
+          <h1>DISCIPLINAS</h1>
         </div>
       </div>
       <div class="col-12 d-flex justify-content-center mt-5 mb-5">
-        <button type="button" name="addTurma" id="addTurma" class="addButton btn btn-primary btn-lg btn-block">Adicionar
-          Turma</button>
+        <button type="button" name="addDisciplinas" id="addDisciplinas" class="addButton btn btn-primary btn-lg btn-block">Adicionar
+          Disciplina</button>
       </div>
       <div id="accordion" class="listaElementos">
         <div class="card">
           <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
             aria-controls="collapseOne">
             <h5 class="mb-0">
-              ID #1
+              Geografia
             </h5>
           </div>
           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -53,13 +53,17 @@
               <div class="col-12 d-flex">
                 <div class="col-9">
                   <p>
-                    Quantidade de Alunos:<br />
-                    <span>58</span>
+                    ID:<br />
+                    <span>1</span>
+                  </p>
+                  <p>
+                    Carga Horária:<br />
+                    <span>35h</span>
                   </p>
                 </div>
                 <div class="col-3">
-                  <button type="button" name="editTurma" id="editTurma" class="btn btn-info btn-xs btn-block">Editar</button>
-                  <button type="button" name="deleteTurma" id="deleteTurma" class="btn btn-danger btn-xs btn-block">Excluir</button>
+                  <button type="button" name="editDisciplina" id="editDisciplina" class="btn btn-info btn-xs btn-block">Editar</button>
+                  <button type="button" name="deleteDisciplina" id="deleteDisciplina" class="btn btn-danger btn-xs btn-block">Excluir</button>
                 </div>
               </div>
             </div>
@@ -70,7 +74,7 @@
           <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
             aria-controls="collapseTwo">
             <h5 class="mb-0">
-              ID #2
+              Português
             </h5>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -78,13 +82,17 @@
               <div class="col-12 d-flex">
                 <div class="col-9">
                   <p>
-                    Quantidade de Alunos:<br />
-                    <span>37</span>
+                    ID:<br />
+                    <span>2</span>
+                  </p>
+                  <p>
+                    Carga Horária:<br />
+                    <span>60h</span>
                   </p>
                 </div>
                 <div class="col-3">
-                  <button type="button" name="editTurma" id="editTurma" class="btn btn-info btn-xs btn-block">Editar</button>
-                  <button type="button" name="deleteTurma" id="deleteTurma" class="btn btn-danger btn-xs btn-block">Excluir</button>
+                  <button type="button" name="editDisciplina" id="editDisciplina" class="btn btn-info btn-xs btn-block">Editar</button>
+                  <button type="button" name="deleteDisciplina" id="deleteDisciplina" class="btn btn-danger btn-xs btn-block">Excluir</button>
                 </div>
               </div>
             </div>
@@ -95,7 +103,7 @@
           <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
             aria-controls="collapseThree">
             <h5 class="mb-0">
-              ID #3
+              Matemática
             </h5>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -103,13 +111,17 @@
               <div class="col-12 d-flex">
                 <div class="col-9">
                   <p>
-                    Quantidade de Alunos:<br />
-                    <span>46</span>
+                    ID:<br />
+                    <span>3</span>
+                  </p>
+                  <p>
+                    Carga Horária:<br />
+                    <span>80h</span>
                   </p>
                 </div>
                 <div class="col-3">
-                  <button type="button" name="editTurma" id="editTurma" class="btn btn-info btn-xs btn-block">Editar</button>
-                  <button type="button" name="deleteTurma" id="deleteTurma" class="btn btn-danger btn-xs btn-block">Excluir</button>
+                  <button type="button" name="editDisciplina" id="editDisciplina" class="btn btn-info btn-xs btn-block">Editar</button>
+                  <button type="button" name="deleteDisciplina" id="deleteDisciplina" class="btn btn-danger btn-xs btn-block">Excluir</button>
                 </div>
               </div>
             </div>

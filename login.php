@@ -26,9 +26,7 @@
 </head>
 
 <body>
-    <section class="login-bg">
-    </section>
-    <section class="login-conteudo d-flex flex-column align-items-center justify-content-center">
+    <section class="login-bg login-conteudo d-flex flex-column align-items-center justify-content-center">
         <div class="logo">
             <h1>VirtualEdu</h1>
         </div>

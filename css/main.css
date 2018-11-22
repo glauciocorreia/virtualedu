@@ -354,18 +354,34 @@ p {
 /* ------------------ PROFESSORES ------------------ */
 
 
-.professores {
+.sectionVirtualEdu {
         margin-left: 230px;
 }
 
-.professores .container {
+.sectionVirtualEdu .container,
+.sectionVirtualEdu .container {
     display: block;
 }
 
-button#addProfessor {
+button.addButton {
     width: 80%;
     background-color: #85144b;
     border-color: #85144b;
+}
+
+.listaElementos p {
+    font-weight: bold;
+    margin: 0;
+}
+.listaElementos span {
+    font-weight: 400;
+}
+#accordion.listaElementos .card-header {
+    background-color: #222d32;
+    cursor: pointer;
+}
+#accordion.listaElementos h5 {
+    color: #fff;
 }
 
 /* ------------------------------------------------- */
